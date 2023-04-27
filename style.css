@@ -97,7 +97,7 @@ li{
     margin-bottom: 15vh;
 }
 
-.content{
+.header-content__div{
     display: inline-block;
     width: 50%;
 }
@@ -122,36 +122,36 @@ button{
     color: var(--color-white);
 }
 
-.osn{
+.header-content__div__div2{
     display: flex;
     align-items: center;
 }
 
-.but1{
+.header-content__div__div2__button1{
     background: var(--background-cl);
     margin-right: 15%;
 }
 
-.but2{
+.header-content__div__div2__button2{
     background-color: var(--color-background);
     border: #C3181F 1px solid;
 }
 
-.other{
+.header-content__div__other{
     display: flex;
     margin-top: 7vh;
 }
 
-.p1{
+.header-content__div__text1{
     font-size: 4rem;
     margin-bottom: 3vh;
 }
 
-.p2{
+.header-content__div__text2{
     margin-bottom: 7vh;
 }
 
-.p3{
+.header-content__div__other__block{
     margin-right: 10%;
 }
 
@@ -168,31 +168,31 @@ button{
     margin-top: 5vh;
 }
 
-.top{
+.top-creator__text1{
     font-size: 3rem;
     text-align: center;
     margin-bottom: 3vh;
 }
 
-.p4{
+.top-creator__text2{
     color: var(--color-cloud-burst);
     text-align: center;
     margin-bottom: 5vh;
 }
 
-.main-block{
+.top-creator__main-block{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
     grid-gap: 1rem;
 }
 
-.block{
+.top-creator__main-block__block{
     width: 250px;
     border: solid 1px var(--color-white);
     border-radius: 5px;
 }
 
-.block img{
+.top-creator__main-block__block img{
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -202,17 +202,22 @@ button{
     object-position: center;
 }
 
-.block div{
+.top-creator__main-block__block div{
     display: inline-block;
 }
 
-.p5{
+.top-creator__main-block__block__svg{
     color: var(--color-bolotO);
 }
 
-.p5 svg{
+.top-creator__main-block__block__svg svg{
     position: relative;
     top: 5px;
+}
+
+.top-creator__button{
+    background-color: var(--color-background);
+    border: #C3181F 1px solid; 
 }
 
 .the-most-collections{
@@ -220,12 +225,12 @@ button{
     margin-bottom: 15vh;
 }
 
-.collection{
+.the-most-collections__text1{
     font-size: 3rem;
     text-align: center;
 }
 
-.p6{
+.the-most-collections__text2{
     color: var(--color-cloud-burst);
     text-align: center;
 }
@@ -237,7 +242,7 @@ button{
     margin-top: 5vh;
 }
 
-.most-collections button:nth-of-type(1){
+.the-most-collections button:nth-of-type(1){
     margin-left: 43%;
 }
 
@@ -272,16 +277,16 @@ button{
     margin-bottom: 15vh;
 }
 
-.block1{
+.meet-the-feNFT__block1{
     width: 50%;
 }
 
-.block2{
+.meet-the-feNFT__block2{
     width: 30%;
     display: flex;
 }
 
-.image1{
+.meet-the-feNFT__block2-image1{
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -291,7 +296,7 @@ button{
     margin-bottom: 50%;
 }
 
-.image2{
+.meet-the-feNFT__block2-image2{
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -300,7 +305,7 @@ button{
     object-position: center;
 }
 
-.image3{
+.meet-the-feNFT__block2-image3{
     width: 250px;
     height: 250px;
     border-radius: 50%;
@@ -320,11 +325,11 @@ button{
     margin-bottom: 3vh;
 }
 
-.p7{
+.meet-the-feNFT__block1__text1{
     color: var(--color-white);
     font-size: 3rem;
 }
-.p8{
+.meet-the-feNFT__block1__text2{
     color: var(--color-cloud-burst);
 }
 
@@ -333,12 +338,12 @@ button{
     margin-bottom: 15vh;
 }
 
-.uniqua{
+.rare-digital-art__text1{
     font-size: 3rem;
     color: var(--color-white);
 }
 
-.p9{
+.rare-digital-art__text2{
     color: var(--color-cloud-burst);
     margin-bottom: 5vh;
 }
@@ -357,39 +362,39 @@ footer{
     flex-wrap: wrap;
 }
 
-.block-footer{
+.footer__block1{
     width: 30%;
 }
 
-.p10{
+.footer__block1__text1{
     color: var(--color-white);
     font-size: 1.5rem;
     color: #C3181F;
 }
 
-.p11{
+.footer__block1__text2{
     color: var(--color-cloud-burst);
     margin-bottom: 3vh;
 }
 
-.block-footer svg{
+.footer__block1 svg{
     margin-right:1.5vw;
 }
 
-.block-footer2{
+.footer__block2{
     width: 50%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.block-footer2 p{
+.footer__block2 p{
     color: var(--color-white);
     font-size: 1.5rem;
     text-align: center;
 }
 
-.block-footer2 ul{
+.footer__block2 ul{
     color: var(--color-cloud-burst);
 }
 
@@ -401,7 +406,7 @@ footer{
     background-color: var(--color-background);
 }
 
-.preloader-wrapper{
+.preloader__wrapper{
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -426,66 +431,66 @@ footer{
   }
 
 @media(max-width: 1270px) {
-    .block1{
+    .meet-the-feNFT__block1{
         width: 50%;
     }
-    .block2{
+    .meet-the-feNFT__block2{
         width: 40%;
     }
 }
 
 @media(max-width: 1200px) {
-    .block-footer2{
+    .footer__block2{
         width: 60%;
     }
 }
 
 @media(max-width: 1050px) {
-    .block-footer2{
+    .footer__block2{
         width: 70%;
     }
 }
 
 @media(max-width: 970px) {
-    .block1{
+    .meet-the-feNFT__block1{
         width: 40%;
     }
-    .block2{
+    .meet-the-feNFT__block2{
         width: 50%;
     }
 }
 
 @media(max-width: 850px) {
-    .block-footer{
+    .footer__block1{
         width: 100%;
         text-align: center;
     }
-    .block-footer2{
+    .footer__block2{
         width: 100%;
     }
 }
 
 @media(max-width: 888px) {
-    .block{
+    .top-creator__main-block__block{
         width: 100%;
     }
 }
 
 @media(max-width: 790px) {
-    .block1{
+    .meet-the-feNFT__block1{
         width: 40%;
     }
-    .block2{
+    .meet-the-feNFT__block2{
         width: 60%;
     }
 }
 
 @media(max-width: 750px) {
-    .block1{
+    .meet-the-feNFT__block1{
         width: 100%;
         text-align: center;
     }
-    .block2{
+    .meet-the-feNFT__block2{
         width: 100%;
         justify-content: center;
     }
@@ -499,7 +504,7 @@ footer{
         width: 100%;
         text-align: center;
     }
-    .other{
+    .header-content__div__other{
         display: flex;
         justify-content: center;
     }
@@ -536,40 +541,40 @@ footer{
 }
 
 @media(max-width: 550px) {
-    .block-footer2{
+    .footer__block2{
         flex-direction: column;
     }
 }     
 
 @media(max-width: 375px){
-    .block-footer2 ul:nth-of-type(1){
+    .footer__block2 ul:nth-of-type(1){
         margin: 0;
         padding: 0;
         text-align: center;
     }
-    .block-footer2 ul:nth-of-type(2){
+    .footer__block2 ul:nth-of-type(2){
         margin: 0;
         padding: 0;
         text-align: center;
     }
-    .block-footer2 ul:nth-of-type(3){
+    .footer__block2 ul:nth-of-type(3){
         padding: 0;
         text-align: center;
     }
 }
   
 
-.lds-roller {
+.preloader__wrapper-lds-roller {
     display: inline-block;
     position: relative;
     width: 80px;
     height: 80px;
   }
-  .lds-roller div {
-    animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  .preloader__wrapper-lds-roller div {
+    animation: preloader__wrapper__lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
     transform-origin: 40px 40px;
   }
-  .lds-roller div:after {
+  .preloader__wrapper-lds-roller div:after {
     content: " ";
     display: block;
     position: absolute;
@@ -579,63 +584,63 @@ footer{
     background: #fff;
     margin: -4px 0 0 -4px;
   }
-  .lds-roller div:nth-child(1) {
+  .preloader__wrapper-lds-roller div:nth-child(1) {
     animation-delay: -0.036s;
   }
-  .lds-roller div:nth-child(1):after {
+  .preloader__wrapper-lds-roller div:nth-child(1):after {
     top: 63px;
     left: 63px;
   }
-  .lds-roller div:nth-child(2) {
+  .preloader__wrapper-lds-roller div:nth-child(2) {
     animation-delay: -0.072s;
   }
-  .lds-roller div:nth-child(2):after {
+  .preloader__wrapper-lds-roller div:nth-child(2):after {
     top: 68px;
     left: 56px;
   }
-  .lds-roller div:nth-child(3) {
+  .preloader__wrapper-lds-roller div:nth-child(3) {
     animation-delay: -0.108s;
   }
-  .lds-roller div:nth-child(3):after {
+  .preloader__wrapper-lds-roller div:nth-child(3):after {
     top: 71px;
     left: 48px;
   }
-  .lds-roller div:nth-child(4) {
+  .preloader__wrapper-lds-roller div:nth-child(4) {
     animation-delay: -0.144s;
   }
-  .lds-roller div:nth-child(4):after {
+  .preloader__wrapper-lds-roller div:nth-child(4):after {
     top: 72px;
     left: 40px;
   }
-  .lds-roller div:nth-child(5) {
+  .preloader__wrapper-lds-roller div:nth-child(5) {
     animation-delay: -0.18s;
   }
-  .lds-roller div:nth-child(5):after {
+  .preloader__wrapper-lds-roller div:nth-child(5):after {
     top: 71px;
     left: 32px;
   }
-  .lds-roller div:nth-child(6) {
+  .preloader__wrapper-lds-roller div:nth-child(6) {
     animation-delay: -0.216s;
   }
-  .lds-roller div:nth-child(6):after {
+  .preloader__wrapper-lds-roller div:nth-child(6):after {
     top: 68px;
     left: 24px;
   }
-  .lds-roller div:nth-child(7) {
+  .preloader__wrapper-lds-roller div:nth-child(7) {
     animation-delay: -0.252s;
   }
-  .lds-roller div:nth-child(7):after {
+  .preloader__wrapper-lds-roller div:nth-child(7):after {
     top: 63px;
     left: 17px;
   }
-  .lds-roller div:nth-child(8) {
+  .preloader__wrapper-lds-roller div:nth-child(8) {
     animation-delay: -0.288s;
   }
-  .lds-roller div:nth-child(8):after {
+  .preloader__wrapper-lds-roller div:nth-child(8):after {
     top: 56px;
     left: 12px;
   }
-  @keyframes lds-roller {
+  @keyframes preloader__wrapper__lds-roller {
     0% {
       transform: rotate(0deg);
     }
@@ -643,4 +648,3 @@ footer{
       transform: rotate(360deg);
     }
   }
-  
