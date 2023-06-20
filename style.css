@@ -113,7 +113,7 @@ li{
 }
 
 .header-content button{
-    width: 100%;
+    width: 15%;
     height: 50px;
     border-radius: 5px;
 }
@@ -123,9 +123,9 @@ button{
 }
 
 .header-content__div__div2{
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
 }
 
 .header-content__div__div2__button1{
@@ -162,10 +162,10 @@ button{
 }
 
 .top-creator button{
-    width: 50%;
+    width: 15%;
     height: 50px;
     border-radius: 5px;
-    margin-left: 25%;
+    margin-left: 45%;
     margin-top: 5vh;
 }
 
@@ -318,7 +318,7 @@ button{
 
 .meet-the-feNFT button{
     color: var(--color-white);
-    width: 50%;
+    width: 20%;
     height: 50px;
     border-radius: 5px;
     background: var(--background-cl);
@@ -351,7 +351,7 @@ button{
 
 .rare-digital-art button{
     color: var(--color-white);
-    width: 50%;
+    width: 15%;
     height: 50px;
     border-radius: 5px;
     background: var(--background-cl);
@@ -538,6 +538,27 @@ footer{
     }
     .rare-digital-art{
         margin-bottom: 5vh;
+    }
+}
+
+@media(max-width: 612px){
+    .header-content button{
+        width: 100%;
+    }
+    .top-creator button{
+        width: 50%;
+        margin-left: 25%;
+    }
+    .meet-the-feNFT button{
+        width: 50%;
+    }
+    .rare-digital-art button{
+        width: 50%;
+    }
+    .header-content__div__div2{
+        display: flex;
+    align-items: center;
+    justify-content: center;
     }
 }
 
